@@ -1,7 +1,7 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import pprint
-
+print ("SPREADSHEET HANDLER")
 
 #edit git
 #le paso scope (api que va a usar) y credenciales (json con mis keys)
