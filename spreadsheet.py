@@ -3,7 +3,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 import pprint
 
 
-
+#edit git
 #le paso scope (api que va a usar) y credenciales (json con mis keys)
 scope = ['https://spreadsheets.google.com/feeds','https://www.googleapis.com/auth/drive']
 creds = ServiceAccountCredentials.from_json_keyfile_name('google-sheets-e0674f296b50.json', scope)
